@@ -21,14 +21,14 @@
 #include <math.h>
 #include <memory.h>
 
-#include "nanovg.h"
+#include "NANOVG\nanovg.h"
 #define FONTSTASH_IMPLEMENTATION
-#include "fontstash.h"
+#include "NANOVG\fontstash.h"
 
 #ifndef NVG_NO_STB
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
 #endif 
+#include "STB\stb_image.h"
 
 #ifdef _MSC_VER
 #pragma warning(disable: 4100)  // unreferenced formal parameter
